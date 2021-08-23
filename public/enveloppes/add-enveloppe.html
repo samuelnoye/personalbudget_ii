@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Enveloppes API</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <h1>Enveloppes API - Manage your budget !</h1>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="update-enveloppe.html">Update an Enveloppe</a>
+    <a href="delete-enveloppe.html">Delete a Enveloppe</a>
+  </nav>
+  <nav>
+    <a href="../transactions/get-transaction.html">Fetch all Transactions</a>
+    <a href="../transactions/add-transaction.html">Create a New Transaction</a>
+    <a href="../transactions/delete-transaction.html">Delete a Transaction</a>
+  </nav>
+
+  <h2>Create a New Enveloppe</h2>
+  <div class="inputs">
+    <label for="title">Enveloppe's title:</label>
+    <input id="title" value="">
+    <label for="budget">Enveloppe's budget:</label>
+    <input id="budget" value="">
+  </div>
+  <div>
+    <button id="submit-enveloppe">Create your Enveloppe</button>
+  </div>
+  <div id="new-enveloppe">
+    
+  </div>
+  <script src="add-enveloppe.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+body {
+    background-color: #454b5c;
+    color: rgb(42, 40, 40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  nav {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  a {
+    color: #fff;
+  }
+  
+  nav a {
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+  
+  input {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  button {
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid rgb(2, 2, 2);
+    background-color: #bd7df1;
+    color: rgb(8, 2, 2);
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #262927ab;
+    transition: background-color 0.2s;
+  }
+  
+  #enveloppe-container {
+    padding: 10px;
+    width: 60%;
+  }
+
+  #single-enveloppe {
+    padding: 20px;
+  }
+  
+  .enveloppe-title {
+    font-size: 1.3em;
+    color: aqua;
+  }
+  
+  .enveloppe-id {
+    color: black;
+    font-weight: bold;
+    font-size: 1.7em;
+  }
+  
+  .enveloppe-budget {
+    font-style: italic;
+    color: aqua;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  #new-enveloppe {
+    color: white;
+    text-align: center;
+  }
+
+  .description {
+    color: black;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .info-links {
+    color:rgb(39, 37, 37);
+    text-decoration: underline;
+    font-size: 1.2em;
+  }
